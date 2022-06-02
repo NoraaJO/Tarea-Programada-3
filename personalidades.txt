@@ -1,0 +1,24 @@
+-Analistas
+Tipos de personalidad intuitiva (N) y pensamiento (T), conocidos por su racionalidad, imparcialidad y excelencia intelectual.
+*Arquitecto:INTJ
+*Lógico:INTP
+*Comandante:ENTJ
+*Polemista:ENTP
+-Diplomáticos
+Tipos de personalidad intuitiva (N) y sentimiento (F), conocidos por su empatía, habilidades diplomáticas e idealismo apasionado.
+*Abogado:INFJ
+*Mediador:INFP
+*Protagonista:ENFJ
+*Veterano:ENFP
+-Centinelas
+Tipos de personalidad Observante (S) y Juzgador (J), conocidos por su practicidad y enfoque en el orden, la seguridad y la estabilidad.
+*Logista:ISTJ
+*Defensor:ISFJ
+*Ejecutivo:ESTJ
+*Cónsul:ESFJ
+-Exploradores
+Tipos de personalidad Observante (S) y Prospección (P), conocidos por su espontaneidad, ingenio y flexibilidad.
+*Virtuoso:ISTP
+*Aventurero:ISFP
+*Empresario:ESTP
+*Animador:ESFP
