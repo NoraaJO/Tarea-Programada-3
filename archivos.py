@@ -7,9 +7,9 @@ import pickle
 #df Procesamiento
 def cargarPaises(paises):
     """
-    Funcionamiento: Carga un archivo con los datos de los paises.
+    Funcionamiento: Carga la lista con los datos de países de un archivo dado.
     Entrada: paises(str): Nombre del archivo.
-    Salida: Lista con los datos de los paises.
+    Salida: Lista con los datos de los países.
     """
     lista = []
     try:
@@ -21,10 +21,15 @@ def cargarPaises(paises):
     except:
         print("No se encontro el archivo: paises.txt")
     return lista
-def cargarPersonalidades():
+def cargarPersonalidades(archPerso):
+    """
+    Funcionamiento: Carga la base de datos desde el archivo dado.
+    Entrada: archPerso(archive): Archivo con los datos de las personalidades.
+    Salida: dicc(dicc): Diccionario con la información de las personalidades.
+    """
     dicc={}
     try:
-        archivo= open("personalidades.txt", "r", encoding="utf-8")
+        archivo= open(archPerso, "r", encoding="utf-8")
         primero=True
         lista=[]
         for linea in archivo.readlines():
@@ -37,9 +42,12 @@ def cargarPersonalidades():
                 llave=linea[1:-1]
             elif linea[0]=="*":
                 lista+=[tuple(linea[1:-1].split(":"))]
+            else:
+                lista+=[linea[:-1]]
         archivo.close()
     except:
         print("No se pudo carga la base datos de la personalidades")
+    print(dicc)
     return dicc
 def cargarBd(archivoLocal):
     """
@@ -71,6 +79,3 @@ def guardar(archivo, baseDatos):
         return
     except:
         print("Error al guardar.")
-
-
-print(cargarPersonalidades())

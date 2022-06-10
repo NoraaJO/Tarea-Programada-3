@@ -111,7 +111,7 @@ class persona:
         Entrada:
         Salida: Todos los datos de la persona.
         """
-        return self.cedula, self.nombre, self.genero, self.personalidad, self.personalidad, self.pais, self.pais, self.estado
+        return self.cedula, self.nombre, self.genero, self.personalidad, self.pais, self.estado
 
 
 
